@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the ICG-VIMOD paper and the
+  software metadata below.
+type: software
+title: ICG-VIMOD
+abstract: >-
+  A dual-stream visible-infrared fusion object detector built on YOLO11.
+  It consumes paired visible (VI) and infrared (IR) images and fuses the
+  two modalities at the backbone and neck levels.
+authors:
+  # TODO: fill in your name and affiliation before publishing.
+  - family-names: "<TODO: family name>"
+    given-names: "<TODO: given name>"
+    affiliation: "<TODO: affiliation>"
+repository-code: 'https://github.com/zzzzzzzcccc/icgvimod'
+url: 'https://github.com/zzzzzzzcccc/icgvimod'
+license: AGPL-3.0
+version: 1.0.0
+date-released: '2026-09-22'
+keywords:
+  - object detection
+  - infrared
+  - visible
+  - image fusion
+  - YOLO11
+  - dual-stream

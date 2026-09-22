@@ -1,0 +1,19 @@
+
+train: /dataset_irvi/images/train  # train images (relative to 'path') 118287 images
+val: /dataset_irvi/images/val  # val images (relative to 'path') 5000 images
+train_ir: /dataset_irvi/images/train_ir # train images (relative to 'path') 118287 images
+val_ir: /dataset_irvi/images/val_ir  # val images (relative to 'path') 5000 images
+
+nc: 8
+#
+#names: ['electric iron','heating plate','heat gun','spirit lamp','heating sleeve', 'electric furnace','hot cutting machine','alcohol burner']
+names: ['Soldering Iron','Hot Plate','Heat Gun','Alcohol Lamp','Heating Mantle', 'Electric Furnace','Hot cutter','Alcohol Blast Lamp']
+
+
+#train:/LLVIP/images/train  # train images (relative to 'path') 118287 images
+#val: /LLVIP/images/val  # val images (relative to 'path') 5000 images
+#train_ir: /LLVIP/images/train_ir # train images (relative to 'path') 118287 images
+#val_ir: /LLVIP/images/val_ir  # val images (relative to 'path') 5000 images
+
+#nc: 1
+#names: ['person']
